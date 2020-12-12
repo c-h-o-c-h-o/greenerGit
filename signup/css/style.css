@@ -100,4 +100,7 @@ footer a {
     box-shadow: none;
     background: none;
   }
+  body {
+    height: auto;
+  }
 }
