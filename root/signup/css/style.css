@@ -20,11 +20,14 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+html {
+  height: 105%;
+}
 body {
   background: linear-gradient(176deg, rgba(245,246,240,1) 0%, rgba(198,205,193,1) 40%, rgba(99,161,95,1) 100%);
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  min-height: 95%;
   font-family: BioRhyme;
   color: #44403F;
 }
@@ -34,7 +37,7 @@ h1 {
 }
 .box {
   margin: 0 auto;
-  margin-top: 8%;
+  margin-top: 1.5%;
   border: 2px solid #44403F;
   border-radius: 15px;
   width: 30%;
@@ -42,11 +45,9 @@ h1 {
   box-shadow: 10px 10px 10px black;
   background: linear-gradient(176deg, rgba(245,246,240,1) 0%, rgba(198,205,193,1) 40%, rgba(99,161,95,1) 100%);
 }
-.logo {
-  margin-top: 8%;
-}
 .logo img {
   margin: 0 auto;
+  margin-top: 8%;
   width: 80%;
   border-radius: 5px;
   box-shadow: 5px 5px 5px #63A15F;
@@ -100,7 +101,10 @@ footer a {
     box-shadow: none;
     background: none;
   }
+  html {
+    height: 100%;
+  }
   body {
-    height: auto;
+    height: 100%;
   }
 }
