@@ -22,9 +22,12 @@
 /*******************************************/
 body {
   background: linear-gradient(176deg, rgba(245,246,240,1) 0%, rgba(198,205,193,1) 40%, rgba(99,161,95,1) 100%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   font-family: BioRhyme;
   color: #44403F;
 }
