@@ -112,7 +112,7 @@ a {
 }
 
 main.container {
-  background-image: url("/img/pexels-cottonbro-5474031.jpg");
+  background-image: url("img/pexels-cottonbro-5474031.jpg");
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
